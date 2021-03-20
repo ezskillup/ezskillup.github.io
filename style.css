@@ -8,14 +8,14 @@
     background-color:#E0E0E0;
 }
 body {
-    background-color: #F0F0F0;
+    background-color: #D0D0D0;
 }
 #dropdown {
     display:flex;
     justify-content: center;
     align-items: flex-start;
-    min-height: 100vh;
-    background: #1f242d;
+    min-height: 75px;
+    background: #D0D0D0;
     position: relative;
 }
 
@@ -100,4 +100,17 @@ body {
     transform-origin: left;
     transition: transform 0.5s;
     transition-delay: 0.5s;
+}
+#content {
+    padding: 10 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container_box {
+    width: 200px;
+    height: 200px;
+    background-color: royalblue;
+    display: inline-block;
+    margin-inline-end: 10px;
 }
