@@ -7,6 +7,11 @@
     height: 200px;
     background-color:#E0E0E0;
 }
+#banner{
+    display:flex;
+    height:100px;
+    justify-content: center;
+}
 body {
     background-color: #D0D0D0;
 }
@@ -161,4 +166,22 @@ body {
 }
 .card .info h3{
     margin: 0;
+}
+.text-light {
+    color: #f8f9fa!important;
+    height: 100px;
+    margin-bottom: 0!important;
+    margin-top: 0!important;
+    background-color: #343a40!important;
+    text-align: center!important;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+footer a {
+    color: #b5c7da;
+    text-decoration: none;
+    background-color: transparent;
 }
