@@ -181,12 +181,8 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
-footer  {
+footer  a{
     color: #b5c7da;
     text-decoration: none;
     background-color: transparent;
-}
-.test {
-    padding: 0px;
-    margin:auto;
 }
