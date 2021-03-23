@@ -112,61 +112,7 @@ body {
     width: 70%;
     justify-content: space-around;
     box-shadow: 0 5px 35px rgba(0,0,0, 0.08);
-}
-.card {
-    width: 280px;
-    height: 360px;
-    padding: 2rem 1rem;
-    background: #fff;
-    position: relative;
-    display: flex;
-    align-items: flex-end;
-    box-shadow: 0px 7px 10px rgba(0, 0, 0, 00.5s);
-    transition: 0.5s ease-in-out;
-}
-.card:hover {
-    transform: translateY(20px);
-}
-.card:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to bottom, rgba(0,176,155,0.5),  rgba(150,201,61,1));
-    z-index: 2;
-    transition: 0.5s all;
-    opacity: 0;
-}
-.card:hover::before {
-    opacity: 1;
-}
-.card img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    -webkit-filter: blur();
-}
-.card .info {
-    position: relative;
-    z-index: 3;
-    color: white;
-    opacity: 0;
-    transform: translateY(30px);
-    transition: 0.5s all;
-
-}
-.card:hover .info{
-    opacity: 1;
-    transform: translateY(0px);
-}
-.card .info h3{
-    margin: 0;
+    
 }
 .text-light {
     color: #f8f9fa!important;
@@ -186,7 +132,34 @@ footer  {
     text-decoration: none;
     background-color: transparent;
 }
-.test {
-    padding: 0px;
-    color: teal;
+.card_image {
+    position: relative;
+    
 }
+.card_image img{
+    width: 250px;
+    height: 250px;
+    display: flexbox;
+    justify-content: space-between; 
+}
+.info{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(0px);
+    transition: ease-in-out 0.25s;
+    opacity: 0;
+}
+.info:hover{
+    backdrop-filter: blur(3px);
+    color: black;
+    opacity: 1;
+}
+
