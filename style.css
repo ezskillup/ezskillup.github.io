@@ -167,21 +167,24 @@ footer a{
 .resource_cards_container{
     padding: 10px;
     margin: 10px;
-    height: 1000px;
+    height: auto;
     width: 83%;
-    background-color: burlywood;
+    background-color: #88c8f8;
     position: relative;
     bottom: 15px;
     left: 30px;
     display: inline-grid;
     grid-template-columns: auto auto auto;
+    
 }
 .resource_card{
     padding: 10px;
     margin: 10px;
-    width: 350px;
-    height: 350px;
+    width: 340px;
+    height: 370px;
     position: relative;
+    border: tomato 2px solid;
+    background-color: #c0e1f6;
 
 }
 .resource_card img{
@@ -190,6 +193,8 @@ footer a{
     margin: auto;
     display: block;
     transition: opacity 0.25s;
+    border-radius: 25px;
+    border: solid 2px black;
 }
 .resource_card h3{
     position: absolute;
@@ -221,6 +226,13 @@ footer a{
     opacity: 0;
     color: black;
 }
+.resource_card h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
 .resource_card:hover h3{
     opacity: 2;
     color: black;
@@ -230,8 +242,12 @@ footer a{
 .resource_card:hover p{
     opacity: 1;
     color: black;
-    transition: ease-in-out 0.25s;
+    
 } 
+.resource_card:hover h2{
+    opacity: 0;
+    transition: 0.23s;
+}
 .filterDiv {
     display: none; 
 }
