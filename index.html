@@ -52,26 +52,41 @@
             Contact us!</a>
     </div>
     <div id="content">
-        <div class="filter"></div>
+        <div class="filter">
+            <div id="myBtnContainer">
+                <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+                <button class="btn" onclick="filterSelection('beginner')"> Beginner</button>
+                <button class="btn" onclick="filterSelection('intermediate')"> Intermediate</button>
+                <button class="btn" onclick="filterSelection('advanced')"> Advanced</button>
+                <button class="btn" onclick="filterSelection('professional')"> Professional</button>
+              </div>
+        </div>
         <div class="resource_cards_container">
-            <div class="resource_card">
+            <div class="resource_card filterDiv beginner">
                 <img src="/Assets/web_dev_bg.png">
                 <h3>Web Development</h3>
+                <p>Learn HTML, CSS, JavaScript</p>
             </div>
-            <div class="resource_card">
+            <div class="resource_card filterDiv intermediate">
                 <img src="/Assets/python_bg.jpg">
                 <h3>Python</h3>
+                <p>Learn HTML, CSS, JavaScript</p>
             </div>
-            <div class="resource_card">
+            <div class="resource_card filterDiv beginner">
                 <img src="/Assets/web_dev_bg.png">
-                <h3>text</h3>
+                <h3>Microsoft Suite</h3>
+            </div>
+            <div class="resource_card filterDiv intermediate">
+                <img src="/Assets/web_dev_bg.png">
+                <h3>SQL</h3>
+            </div>
+            <div class="resource_card filterDiv professional">
+                <img src="/Assets/web_dev_bg.png">
+                <h3>Salesforce</h3>
             </div>
 
 
         </div>
-        <!-- <a href=""class="container_box">Microsoft Suite</a>
-        <a href=""class="container_box">SQL</a>
-        <a href=""class="container_box">Salesforce</a> <-->
         </div>
     </div>
     <footer class="text-light">
@@ -80,5 +95,6 @@
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSeOifSPv551j2BcFLzhkHXiBE94Dw1YqkRMi7oP8pYnsfBLCQ/viewform">Give Us Feedback</a>
             </p>
     </footer> 
+    <script src="homepage.js"></script>
 </body>
 </html>
