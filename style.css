@@ -269,4 +269,38 @@ footer a{
     background-color: red;
     color: white;
 }
-  
+.resource_cards_container .expert{
+    background-color: red;
+}
+#logo{
+    position: relative;
+    bottom: 180px;
+    left: 20px;
+    height: 240px;
+    width: 240px;
+    border-radius: 150px;
+}
+#logo .logo_up{
+    position: relative;
+    top: 35px;
+    left: 130px;
+    color: black;
+    font-size: 35px;
+}
+#logo .logo_skill{
+    position: relative;
+    top: 55px;
+    left: 80px;
+    color: black;
+    font-size: 35px;
+}
+#logo .logo_ez{
+    position: relative;
+    top: 70px;
+    left: 40px;
+    color: black;
+    font-size: 35px;
+}
+
+
+
