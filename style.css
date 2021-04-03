@@ -152,20 +152,15 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
-footer a{
-    color: #b5c7da;
-    text-decoration: none;
-    background-color: transparent;
-}
 .filter {
    padding: 10px;
    margin: 10px;
-   height: 500px;
+   height: 300px;
    width: 200px; 
    background-color: pink;
    position: relative;
    left: 10px;
-   bottom: 15px;
+   bottom: 1px;
    border-radius: 10px;
 }
 .resource_cards_container{
@@ -411,4 +406,15 @@ footer a{
     main{
         width: 100%;
     }
+}
+.left_space{
+    padding: 10px;
+   margin: 10px;
+   height: 100px;
+   width: 200px; 
+   background-color: pink;
+   position: relative;
+   left: 10px;
+   top: 1px;
+   border-radius: 10px;
 }
