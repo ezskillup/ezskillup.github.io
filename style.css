@@ -134,6 +134,7 @@ body {
     display: flex;
     width: 97%;
     justify-content: space-around;
+
 }
 .text-light {
     color: #f8f9fa!important;
@@ -403,8 +404,8 @@ footer a{
     font-size:13px;
     margin-bottom:0;
   }
-  @media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
+@media (max-width: 768px){
+    main{
+        width: 100%;
     }
-  }
+}
