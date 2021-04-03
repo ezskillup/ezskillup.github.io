@@ -2,7 +2,10 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    width: auto;
+    height: auto;
 }
+
 #header {
     height: 300px;
     background-color:#E0E0E0;
