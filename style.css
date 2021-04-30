@@ -5,7 +5,6 @@
     width: auto;
     height: auto;
 }
-
 #header {
     height: 350px;
     background-color:#E0E0E0;
@@ -417,3 +416,25 @@ body {
    top: 1px;
    border-radius: 10px;
 }
+#box-1{
+    float:left;
+    height:130px;
+    width:45%;
+    background-color: yellow;
+    margin: 5px;
+}
+#box-2{
+    float: left;
+    height:80px;
+    width:50%;
+    background-color: teal;
+    margin: 4px;
+}
+#box-3{
+    float: left;
+    height:45px;
+    width:50%;
+    background-color: tomato;
+    margin: 4px;
+}
+
