@@ -195,6 +195,16 @@
     .expert{
         background-color: red;
     }
+.dropdown{
+  margin: 10px;
+}  
+.show{
+  display: inline-block;
+}
+body{
+  background-color: beige;
+}
+
     
     
     
