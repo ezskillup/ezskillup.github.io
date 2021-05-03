@@ -1,0 +1,22 @@
+.side_feedback{
+    background-color: pink;
+    padding: 10px;
+    height: 300px;
+    width: 200px;
+    border-radius: 10%;
+}
+.learn_tag{
+    background-color: royalblue;
+    min-height: 180px;
+    max-width: 2rem;
+    border: 6px solid royalblue;
+    text-align: left;
+}
+.tag{
+transform: rotate(-90deg);
+}
+.learn_box{
+    background-color: pink;
+    min-height: 180px;
+    border-left: 6px solid royalblue;
+}
