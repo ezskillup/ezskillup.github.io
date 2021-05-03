@@ -195,9 +195,16 @@
     .expert{
         background-color: red;
     }
-a{
-  color: inherit;
-  text-decoration: none;
+.dropdown{
+  margin: 10px;
+}  
+.show{
+  display: inline-block;
 }
+body{
+  background-color: beige;
+}
+
+    
     
     
