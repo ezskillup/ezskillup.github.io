@@ -104,11 +104,11 @@
     
     }
     .resource_card{
-        padding-top: 10px;
         min-height: 180px;
         position: relative;
         border: tomato 2px solid;
         background-color: #c0e1f6;
+        padding: 15px 10px 10px 10px;
     
     }
     .resource_card img{
