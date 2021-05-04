@@ -11,165 +11,96 @@
     <title>EZSkillUp</title>
 </head>
 <body>
-<<<<<<< HEAD
-  <header>
-      <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarExample01">
-              <span class="navbar-toggler-icon">
-              </span>
-            </button>
-          </div>  
-          
-          <div class="collapse navbar-collapse" id="navbarExample01">
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" aria-current="page" href="#">Experts Recommended</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Resource Packages</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Practise</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSeOifSPv551j2BcFLzhkHXiBE94Dw1YqkRMi7oP8pYnsfBLCQ/viewform">Feedback Form!</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <!-- Navbar -->
-    
-      <!-- Background image -->
-      <div
-        class="p-5 text-center bg-image"
-        style="
-          background-image: url('http://blog.bestbuy.ca/wp-content/uploads/2020/04/Microsoft-365.jpg');
-          height: 400px;
-          margin-top: 58px;">
-
-        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
-          <div class="d-flex justify-content-center align-items-center h-100">
-            <div class="text-white">
-              <h1 class="mb-3">Microsoft Office 365 Master Course</h1>
-              <h4 class="mb-3">Coupon Code: TRY10FREE52101</h4>
-              <a class="btn btn-outline-light btn-lg" href="https://www.udemy.com/course/learn-microsoft-office-365/?ranMID=39197&ranEAID=KLBDeI3Y*Vs&ranSiteID=KLBDeI3Y.Vs-qbKw0J6eN7IJCJpmI66iJg&utm_source=aff-campaign&LSNPUBID=KLBDeI3Y*Vs&utm_medium=udemyads" role="button">Apply Coupon</a>
-            </div>
-          </div>   
-          <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Coupon Not Working?</button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-              <li><p>One coupon can either last for an hour or a amximum of 2 days.</p></li>
-              <li><p>The author of the course has rights to revoke the coupon any time.</p></li>
-            </ul>
-          </div> 
-        
-      </div>
-    </div>
-  </header>
-=======
   <div w3-include-html="../commons/header.html"></div>
->>>>>>> 1d750f63281c9015156e4215b540c93c34f127fd
-  <br>
   <!--body-->
   <div class="container-fluid">
-      <div class="row mb-4">
-          <div class="order-2 order-sm-1 col-lg-2 col-md-2 col-xs-10">
-              <div class="col-md">
-                  <div class="filter">
-                    <div id="myBtnContainer">
-                        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-                        <button class="btn" onclick="filterSelection('beginner')"> Beginner</button>
-                        <button class="btn" onclick="filterSelection('intermediate')"> Intermediate</button>
-                        <button class="btn" onclick="filterSelection('advanced')"> Advanced</button>
-                        <button class="btn" onclick="filterSelection('professional')"> Professional</button>
-                    </div>
-                  </div>
-              </div>
+    <div class="row mb-4">
+      <div class="order-2 order-sm-1 col-lg-2 col-md-2 col-xs-10">
+        <div class="col-md">
+          <div class="filter">
+            <div id="myBtnContainer">
+              <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+              <button class="btn" onclick="filterSelection('beginner')"> Beginner</button>
+              <button class="btn" onclick="filterSelection('intermediate')"> Intermediate</button>
+              <button class="btn" onclick="filterSelection('advanced')"> Advanced</button>
+              <button class="btn" onclick="filterSelection('professional')"> Professional</button>
+            </div>
           </div>
-          <div class="order-1 order-sm-2 col-lg-10 col-md-10 col-xs-10">
-              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 row-cols-auto g-4">
-                  <div class="p-2 col-lg-4 col-md-4">
-                      <div class="resource_card filterDiv beginner expert col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <a href="/skill_pages/expertsrecommend.html" target="_blank"><img class= "img-fluid" src="/Assets/Experts.jpg">
-                        <h3>Experts Recommend</h3>
-                        <p>Learn HTML, CSS, JavaScript</p>
-                        <h2>Experts Recommend</h2></a>
-                      </div>
-                  </div>
-                  <div class="p-2 col-lg-4 col-md-4">
-                      <div class="resource_card filterDiv beginner col-lg-12 col-md-12 col-sm-12 col-xs-12 card">
-                        <a href="/skill_pages/webdev.html" target="_blank"> <img class= "img-fluid" src="/Assets/web_dev_bg.png">
-                        <h3>Web Development</h3>
-                        <p>Learn HTML, CSS, JavaScript</p>
-                        <h2>Web Development</h2></a>
-                      </div>
-                  </div>
-                  <!---->
-                  <div class="p-2 col-lg-4 col-md-4">
-                      <div class="resource_card filterDiv intermediate advanced col-lg-12 col-md-12 col-sm-12 col-xs-12 card">
-                        <a href="/skill_pages/python.html" target="_blank" rel="noopener noreferrer"><img class= "img-fluid" src="/Assets/python.png">
-                        <h3>Python</h3>
-                        <p>Learn HTML, CSS, JavaScript</p>
-                        <h2>Python</h2></a>
-                      </div>
-                  </div>
-                  <div class="p-2 col-lg-4 col-md-4">
-                     <div class="resource_card filterDiv beginner col-lg-12 col-md-12 col-sm-12 col-xs-12 card">
-                        <a href="/skill_pages/microsoft_suite.html" target="_blank" rel="noopener noreferrer"><img class= "img-fluid" src="/Assets/microsoft.png">
-                        <h3>Microsoft Suite</h3>
-                        <h2>Microsoft Suite</h2></a>
-                     </div>
-                    </div>
-                    <div class="p-2 col-lg-4 col-md-4">
-                        <div class="resource_card filterDiv intermediate advanced col-lg-12 col-md-12 col-sm-12 col-xs-12 card">
-                            <a href="/skill_pages/sql.html" target="_blank" rel="noopener noreferrer"><img class= "img-fluid" src="/Assets/sql.jpg">
-                            <h3>SQL</h3>
-                            <h2>SQL</h2></a>
-                        </div>
-                    </div>
-                    <div class="p-2 col-lg-4 col-md-4">
-                        <div class="resource_card filterDiv professional col-lg-12 col-md-12 col-sm-12 col-xs-12 card">
-                            <a href="/skill_pages/salesforce.html" target="_blank" rel="noopener noreferrer"><img class= "img-fluid" src="/Assets/salesforce.jpg">
-                            <h3>Salesforce</h3>
-                            <h2>Salesforce</h2></a>
-                        </div>
-                    </div>
-                    <div class="p-2 col-lg-4 col-md-4">
-                        <div class="resource_card filterDiv intermediate col-lg-12 col-md-12 col-sm-12 col-xs-12 card">
-                            <a href="/skill_pages/powerbi.html" target="_blank" rel="noopener noreferrer"><img class= "img-fluid" src="/Assets/bi.png">
-                            <h3>Power BI</h3>
-                            <h2>Power BI</h2></a>
-                        </div>
-                    </div>
-                    <div class="p-2 col-lg-4 col-md-4">
-                        <div class="resource_card filterDiv intermediate col-lg-12 col-md-12 col-sm-12 col-xs-12 card">
-                            <a href="/skill_pages/tableau.html" target="_blank" rel="noopener noreferrer"><img class= "img-fluid" src="/Assets/tableau.png">
-                            <h3>Tableau</h3>
-                            <h2>Tableau</h2></a>
-                        </div>
-                    </div>
-                    <div class="p-2 col-lg-4 col-md-4">
-                        <div class="resource_card filterDiv intermediate col-lg-12 col-md-12 col-sm-12 col-xs-12 card">
-                            <a href="/skill_pages/r.html" target="_blank" rel="noopener noreferrer"><img class= "img-fluid" src="/Assets/r.png">
-                            <h3>R</h3>
-                            <h2>R</h2></a>
-                        </div>
-                    </div>
-                </div>
-              </div>
-          </div>
+        </div>
       </div>
-  </div>        
+      <div class="order-1 order-sm-2 col-lg-10 col-md-10 col-xs-10">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 row-cols-auto g-4">
+          <div class="p-2 col-lg-4 col-md-4">
+            <div class="resource_card filterDiv beginner expert col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <a href="/skill_pages/expertsrecommend.html" target="_blank"><img class= "img-fluid" src="/Assets/Experts.jpg">
+              <h3>Experts Recommend</h3>
+              <p>Learn HTML, CSS, JavaScript</p>
+              <h2>Experts Recommend</h2></a>
+            </div>
+          </div>
+          <div class="p-2 col-lg-4 col-md-4">
+            <div class="resource_card filterDiv beginner col-lg-12 col-md-12 col-sm-12 col-xs-12 card">
+              <a href="/skill_pages/webdev.html" target="_blank"> <img class= "img-fluid" src="/Assets/web_dev_bg.png">
+              <h3>Web Development</h3>
+              <p>Learn HTML, CSS, JavaScript</p>
+              <h2>Web Development</h2></a>
+            </div>
+          </div>
+                  <!---->
+          <div class="p-2 col-lg-4 col-md-4">
+            <div class="resource_card filterDiv intermediate advanced col-lg-12 col-md-12 col-sm-12 col-xs-12 card">
+              <a href="/skill_pages/python.html" target="_blank" rel="noopener noreferrer"><img class= "img-fluid" src="/Assets/python.png">
+              <h3>Python</h3>
+              <p>Learn HTML, CSS, JavaScript</p>
+              <h2>Python</h2></a>
+            </div>
+          </div>
+          <div class="p-2 col-lg-4 col-md-4">
+            <div class="resource_card filterDiv beginner col-lg-12 col-md-12 col-sm-12 col-xs-12 card">
+              <a href="/skill_pages/microsoft_suite.html" target="_blank" rel="noopener noreferrer"><img class= "img-fluid" src="/Assets/microsoft.png">
+              <h3>Microsoft Suite</h3>
+              <h2>Microsoft Suite</h2></a>
+            </div>
+          </div>
+          <div class="p-2 col-lg-4 col-md-4">
+            <div class="resource_card filterDiv intermediate advanced col-lg-12 col-md-12 col-sm-12 col-xs-12 card">
+                <a href="/skill_pages/sql.html" target="_blank" rel="noopener noreferrer"><img class= "img-fluid" src="/Assets/sql.jpg">
+                <h3>SQL</h3>
+                <h2>SQL</h2></a>
+            </div>
+          </div>          
+          <div class="p-2 col-lg-4 col-md-4">
+            <div class="resource_card filterDiv professional col-lg-12 col-md-12 col-sm-12 col-xs-12 card">
+                <a href="/skill_pages/salesforce.html" target="_blank" rel="noopener noreferrer"><img class= "img-fluid" src="/Assets/salesforce.jpg">
+                <h3>Salesforce</h3>
+                <h2>Salesforce</h2></a>
+            </div>
+          </div>          
+          <div class="p-2 col-lg-4 col-md-4">
+            <div class="resource_card filterDiv intermediate col-lg-12 col-md-12 col-sm-12 col-xs-12 card">
+                <a href="/skill_pages/powerbi.html" target="_blank" rel="noopener noreferrer"><img class= "img-fluid" src="/Assets/bi.png">
+                <h3>Power BI</h3>
+                <h2>Power BI</h2></a>
+            </div>
+          </div>          
+          <div class="p-2 col-lg-4 col-md-4">
+            <div class="resource_card filterDiv intermediate col-lg-12 col-md-12 col-sm-12 col-xs-12 card">
+                <a href="/skill_pages/tableau.html" target="_blank" rel="noopener noreferrer"><img class= "img-fluid" src="/Assets/tableau.png">
+                <h3>Tableau</h3>
+                <h2>Tableau</h2></a>
+            </div>
+          </div>          
+          <div class="p-2 col-lg-4 col-md-4">
+            <div class="resource_card filterDiv intermediate col-lg-12 col-md-12 col-sm-12 col-xs-12 card">
+                <a href="/skill_pages/r.html" target="_blank" rel="noopener noreferrer"><img class= "img-fluid" src="/Assets/r.png">
+                <h3>R</h3>
+                <h2>R</h2></a>
+            </div>
+          </div>         
+        </div>
+      </div>
+    </div>
+  </div>
   <div w3-include-html="../commons/footer.html"></div>
     <script>includeHTML(); </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
