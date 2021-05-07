@@ -36,3 +36,13 @@
     border-radius: 10%;
     margin-left: 17px;
 }
+.vertical-line{
+    border-left: 6px solid #5f5;
+    left:50%;
+    margin: 0 auto;
+    width: 1px;
+    min-height: 200px;
+}
+.btn{
+    color: red;
+}
