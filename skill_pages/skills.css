@@ -17,7 +17,7 @@
 .container_box {
     background-color: pink;
     min-height: 180px;
-    border-left: 6px solid white;
+    border-left: 6px solid beige;
     width: 91%;
     position: relative;
     float: left;
