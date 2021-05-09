@@ -140,6 +140,20 @@
 	position:relative;
 	top:1px;
 }
-
-
+#text1, #text2, #text3, #text4 {
+    opacity: 0;
+}
+.info_box{
+    justify-content: space-evenly;
+    text-align: center;
+}
+.info_box img{
+    width: 15rem;
+}
+.usfr_box{
+    width: 12rem;
+    height: 8rem;
+    border: solid 2px black;
+    align-self: right;
+}
 
