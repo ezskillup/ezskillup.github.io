@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="skills.css">
     <script src="/commons/commons.js"></script>
     <script src="test.js"></script>
+    <script src="filter.js"></script>
     <title>Webdev</title>
 </head>
 <body>
@@ -22,6 +23,15 @@
                 <div class="col-md">
                     <div class="side_feedback">
                         <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeOifSPv551j2BcFLzhkHXiBE94Dw1YqkRMi7oP8pYnsfBLCQ/viewform">Give Us Feedback</a>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="side_feedback">
+                        <div id="myBtnContainer">
+                            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+                            <button class="btn" onclick="filterSelection('exercises')"> Exercises</button>
+                            <button class="btn" onclick="filterSelection('projects')"> Projects</button>
+                          </div>
                     </div>
                 </div>
             </div>
@@ -91,11 +101,11 @@
                         <div class="container_box row">
                             <div class="col-12">
                                 <div class="buttons_container row">
-                                    <div class="col-xl-2 col-lg-6 col-md-6 mt-4"><p><a href="https://www.youtube.com/watch?v=5bMdjkfvONE&ab_channel=Udemy" class="projects_button" target="_blank" type="button">M1M0 Projects</a></p></div>
-                                    <div class="col-xl-2 col-lg-6 col-md-6 mt-4"><p><a href="https://www.w3resource.com/html-css-exercise/index.php" class="projects_button" target="_blank" type="button">Static Website</a></p></div>
-                                    <div class="col-xl-2 col-lg-6 col-md-6 mt-4"><p><a href="https://www.youtube.com/watch?v=3J-EFMzz94g&ab_channel=CodeAndCreate" class="exercises_button" target="_blank" type="button">W3Schools exercise</a></p></div>
-                                    <div class="col-xl-2 col-lg-6 col-md-6 mt-4"><p><a href="https://www.codementor.io/projects/web" class="projects_button" target="_blank" type="button">Dynamic Website</a></p></div>
-                                    <div class="col-xl-2 col-lg-6 col-md-6 mt-4"><p><a href="https://www.codementor.io/projects/web" class="projects_button" target="_blank" type="button">CodeMentor Projects</a></p></div>
+                                    <div class="col-xl-2 col-lg-6 col-md-6 mt-4 filterDiv projects"><p><a href="https://www.youtube.com/watch?v=5bMdjkfvONE&ab_channel=Udemy" class="projects_button" target="_blank" type="button">M1M0 Projects</a></p></div>
+                                    <div class="col-xl-2 col-lg-6 col-md-6 mt-4 filterDiv projects"><p><a href="https://www.w3resource.com/html-css-exercise/index.php" class="projects_button" target="_blank" type="button">Static Website</a></p></div>
+                                    <div class="col-xl-2 col-lg-6 col-md-6 mt-4 filterDiv exercises"><p><a href="https://www.youtube.com/watch?v=3J-EFMzz94g&ab_channel=CodeAndCreate" class="exercises_button" target="_blank" type="button">W3Schools exercise</a></p></div>
+                                    <div class="col-xl-2 col-lg-6 col-md-6 mt-4 filterDiv projects"><p><a href="https://www.codementor.io/projects/web" class="projects_button" target="_blank" type="button">Dynamic Website</a></p></div>
+                                    <div class="col-xl-2 col-lg-6 col-md-6 mt-4 filterDiv projects"><p><a href="https://www.codementor.io/projects/web" class="projects_button" target="_blank" type="button">CodeMentor Projects</a></p></div>
                                 </div>
                             </div>    
                         </div>   

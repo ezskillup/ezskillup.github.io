@@ -90,22 +90,20 @@ main{
   width: 100%;
 }
 }
-
-
 .filter{
-  margin-top: 10px;
-  padding: 10px;
-  height: 300px;
-  width: 200px; 
-  background-color: pink;
-  border-radius: 10%;
+  background-image: linear-gradient(to left top,#80a3db, #036fa0, #494b64);
+  border-radius: 5%;
+  padding: 7px 6px;
+  box-shadow: 4px 4px 4px #cccccc;
 }
+
 .resource_card{
   min-height: 180px;
   position: relative;
-  border: tomato 2px solid;
-  background-image: linear-gradient(to right, rgb(226, 136, 198), #fcf6f5ff, rgb(220,100,183));
+  border: #eebddd 2px solid;
+  background-image: linear-gradient(to right, #e3e0f3, #ffffff, #ffffff, #eebddd);
   padding: 15px 10px 10px 10px;
+  box-shadow: 4px 4px 4px #eebddd;
 }
 .resource_card img{
   min-height: 240px;
@@ -190,9 +188,7 @@ main{
   background-color: red;
   color:#f8f9fa;
 }
-.expert{
-  background-color: rgb(212, 64, 64);
-}
+
 .dropdown{
   margin-top: 15px;
 }  
@@ -200,7 +196,7 @@ main{
   display: inline-block;
 }
 body{
-  background-image: linear-gradient(to right, rgb(137,191,242), #fcf6f5ff, rgb(137,191,242));
+  background-image: #ffffff;
 }
 a{
   text-decoration: none;
