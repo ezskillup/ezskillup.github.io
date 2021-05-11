@@ -93,8 +93,9 @@ main{
 .filter{
   background-image: linear-gradient(to left top,#80a3db, #036fa0, #494b64);
   border-radius: 5%;
-  padding: 7px 6px;
+  padding: 7px -5px;
   box-shadow: 4px 4px 4px #cccccc;
+  word-wrap: wrap break-word;
 }
 
 .resource_card{
