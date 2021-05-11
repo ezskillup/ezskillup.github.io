@@ -254,3 +254,14 @@
      background-color: ivory;
      box-shadow: 4px 4px 4px black;
   }
+  .feedback_box_expert{
+    height: 170px;
+    width: 160px; 
+    margin: 25px 7px;
+    padding: 9px;
+    border: solid 2px black;
+    text-align: center;
+    border-radius: 5%;
+    background-color: ivory;
+    box-shadow: 4px 4px 4px black;
+ }
