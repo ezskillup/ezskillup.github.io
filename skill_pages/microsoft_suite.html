@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="skills.css">
     <script src="/commons/commons.js"></script>
-    <script src="test.js"></script>
+    <script src="../JS files/filter.js"></script>
     <title>Microsoft Suite</title>
 </head>
 <body>
@@ -22,7 +22,7 @@
                 <div class="col-md">
                     <div class="side_feedback">
                         <div id="myBtnContainer">
-                            <button class="btn" onclick="filterSelection('all')"> Show all</button>
+                            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
                             <button class="btn" onclick="filterSelection('easy')"> Easy</button>
                             <button class="btn" onclick="filterSelection('intermediate')"> Intermediate</button>
                             <button class="btn" onclick="filterSelection('hard')"> Hard</button>
@@ -35,7 +35,7 @@
                 <div class="col-md ">
                     <div class="side_projectfil">
                         <div id="myBtnContainer">
-                            <button class="btn" onclick="filterSelection('all')"> Show all</button>
+                            <button class="btn active" onclick="filterSelection('all')"> Show all</button>
                             <button class="btn" onclick="filterSelection('exercises')"> Exercises</button>
                             <button class="btn" onclick="filterSelection('projects')"> Projects</button>
                         </div>
@@ -51,10 +51,10 @@
                         <div class="container_box row">
                             <div class="col-6">
                                 <div class="buttons_container row row-cols-auto">
-                                    <div class="col-md-4 mt-4 mx-1"><p><a href="https://edu.gcfglobal.org/en/subjects/office/" class="easyskill_button" target="_blank" type="button">GCFGlobal</a></p></div>
-                                    <div class="col-md-4 mt-4 mx-2"><p><a href="https://www.skillshare.com/browse?seeAll=1&tagSlug=microsoft-office&sort=rating&time=default&length=all&enrollmentType=both&page=0" class="medskill_button" target="_blank" type="button">Skill Share</a></p></div>
-                                    <div class="col-md-4 mt-4 mx-1"><p><a href="https://support.microsoft.com/en-us/training" class="hardskill_button" target="_blank" type="button">Microsoft</a></p></div>
-                                    <div class="col-md-4 mt-4 mx-2"><p><a href="https://www.youtube.com/watch?v=DzTCFsdxMP4&ab_channel=SimonSezIT" class="medskill_button" target="_blank" type="button">YouTube</a></p></div>                                    
+                                    <div class="col-md-6 col-xl-4 mt-4 mx-2 filterDiv easy exercises projects"><p><a href="https://edu.gcfglobal.org/en/subjects/office/" class="easyskill_button" target="_blank" type="button">GCFGlobal</a></p></div>
+                                    <div class="col-md-6 col-xl-4 mt-4 mx-2 filterDiv intermediate exercises projects"><p><a href="https://www.youtube.com/watch?v=DzTCFsdxMP4&ab_channel=SimonSezIT" class="medskill_button" target="_blank" type="button">YouTube</a></p></div>
+                                    <div class="col-md-6 col-xl-4 mt-4 mx-2 filterDiv hard exercises projects"><p><a href="https://support.microsoft.com/en-us/training" class="hardskill_button" target="_blank" type="button">Microsoft</a></p></div>
+                                    <div class="col-md-6 col-xl-4 mt-4 mx-2 filterDiv hard exercises projects"><p><a href="https://www.teststeststests.com/microsoft-office/excel-2016/excel-2016-tutorials-and-tests.html" class="hardskill_button" target="_blank" type="button">TestsTestsTests</a></p></div>                                    
                                 </div>
                             </div>    
                         </div>
@@ -64,12 +64,12 @@
                             <h3 class="tag">PRACTICE</h3>
                         </div>
                         <div class="container_box row">
-                            <div class="col-6">
-                                <div class="buttons_container row row-cols-auto">
-                                    <div class="col-md-4 mt-4 mx-1"><p><a href="https://www.wiseowl.co.uk/ms-office/skill/" class="easyskill_button" target="_blank" type="button">WiseOwl</a></p></div>
-                                    <div class="col-md-4 mt-4 mx-1"><p><a href="https://www.teststeststests.com/microsoft-office/microsoft-office-index.html" class="medskill_button" target="_blank" type="button">Tests Tutorial</a></p></div>
-                                    <div class="col-md-4 mt-4 mx-2"><p><a href="https://www.isograd.com/EN/freetestselection.php" class="hardskill_button" target="_blank" type="button">IsoGrad</a></p></div>
-                                    <div class="col-md-4 mt-4 mx-2"><p><a href="#" class="medskill_button" target="_blank" type="button">Cant find</a></p></div>
+                            <div class="col-12">
+                                <div class="buttons_container row">
+                                    <div class="col-xl-2 col-lg-6 col-md-6 mt-4 filterDiv exercises easy intermediate hard"><p><a href="https://www.wiseowl.co.uk/ms-office/skill/" class="exercises_button" target="_blank" type="button">WiseOwl</a></p></div>
+                                    <div class="col-xl-2 col-lg-6 col-md-6 mt-4 filterDiv exercises easy intermediate hard"><p><a href="https://www.teststeststests.com/microsoft-office/microsoft-office-index.html" class="exercises_button" target="_blank" type="button">Tests Tutorial</a></p></div>
+                                    <div class="col-xl-2 col-lg-6 col-md-6 mt-4 filterDiv exercises easy intermediate hard"><p><a href="https://www.isograd.com/EN/freetestselection.php" class="exercises_button" target="_blank" type="button">IsoGrad</a></p></div>
+                                    <div class="col-xl-2 col-lg-6 col-md-6 mt-4 filterDiv exercises easy intermediate hard"><p><a href="#" class="medskill_button" target="_blank" type="button">Cant find</a></p></div>
                                 </div>
                             </div>    
                         </div>    
