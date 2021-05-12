@@ -221,29 +221,29 @@
 }/* filter */
 .filterDiv {
     display: none; 
-  }
-  .show {
+}
+.show {
     display: block;
-  }
-  .btn {
+}
+.btn {
     border-radius: 5px;
     outline: none;
     padding: 12px 16px;
     background-color: transparent;
     cursor: pointer;
-  }
-  .btn:hover {
+}
+.btn:hover {
     background-color: black;
     color: white;
-  }
-  .btn.active {
+}
+.btn.active {
     background-image: red;
     color:#f8f9fa;
-  }
-  .show{
+}
+.show{
     display: inline-block;
-  }
-  .feedback_box{
+}
+.feedback_box{
      height: 75px;
      width: 135px; 
      margin: 25px 7px;
@@ -253,8 +253,8 @@
      border-radius: 5%;
      background-color: ivory;
      box-shadow: 4px 4px 4px black;
-  }
-  .feedback_box_expert{
+}
+.feedback_box_expert{
     height: 170px;
     width: 160px; 
     margin: 25px 7px;
@@ -304,3 +304,4 @@
     font-weight: bolder;
 }
 
+}
