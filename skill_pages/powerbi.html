@@ -41,15 +41,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md ">
-                    <div class="side_projectfil">
-                        <div id="myBtnContainer">
-                            <button class="btn" onclick="filterSelection('all')"> Show all</button>
-                            <button class="btn" onclick="filterSelection('exercises')"> Exercises</button>
-                            <button class="btn" onclick="filterSelection('projects')"> Projects</button>
-                        </div>
-                    </div>
-                </div>
             </div>
             <div class="order-1 order-sm-1 order-lg-2 col-10">
                 <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1 row-cols-auto g-5">
@@ -60,10 +51,10 @@
                         <div class="container_box row">
                             <div class="col-6">
                                 <div class="buttons_container row row-cols-auto">
-                                    <div class="col-md-4 mt-4 mx-1"><p><a href="https://www.youtube.com/watch?v=j5RAHGfKaBc&ab_channel=Simplilearn" class="easyskill_button" target="_blank" type="button">Simplilearn</a></p></div>
-                                    <div class="col-md-4 mt-4 mx-2"><p><a href="https://www.youtube.com/watch?v=W0mG3KFR3Hw&list=PL9ooVrP1hQOElgtd2D_rU5McNbXofqMii&ab_channel=edureka%21" class="medskill_button" target="_blank" type="button">Edureka</a></p></div>
-                                    <div class="col-md-4 mt-4 mx-1"><p><a href="https://docs.microsoft.com/en-us/learn/powerplatform/power-bi" class="hardskill_button" target="_blank" type="button">Microsoft Build</a></p></div>
-                                    <div class="col-md-4 mt-4 mx-2"><p><a href="https://www.youtube.com/watch?v=o5HzOz2R3ZU&ab_channel=ProgrammingKnowledge" class="medskill_button" target="_blank" type="button">YouTube</a></p></div>
+                                    <div class="col-md-6 col-xl-4 mt-4 mx-2 filterDiv intermediate exercises projects"><p><a href="https://www.simplilearn.com/learn-power-bi-basics-free-course-skillup" class="medskill_button" target="_blank" type="button">Simplilearn</a></p></div>
+                                    <div class="col-md-6 col-xl-4 mt-4 mx-2 filterDiv intermediate exercises projects"><p><a href="https://www.youtube.com/watch?v=W0mG3KFR3Hw&list=PL9ooVrP1hQOElgtd2D_rU5McNbXofqMii&ab_channel=edureka%21" class="medskill_button" target="_blank" type="button">Edureka</a></p></div>
+                                    <div class="col-md-6 col-xl-4 mt-4 mx-2 filterDiv intermediate exercises projects"><p><a href="https://www.youtube.com/watch?v=o5HzOz2R3ZU&ab_channel=ProgrammingKnowledge" class="medskill_button" target="_blank" type="button">YouTube</a></p></div>
+                                    <div class="col-md-6 col-xl-4 mt-4 mx-2 filterDiv hard exercises projects"><p><a href="https://docs.microsoft.com/en-us/learn/powerplatform/power-bi" class="hardskill_button" target="_blank" type="button">Microsoft Docs</a></p></div>
                                 </div>
                             </div>    
                         </div>
@@ -73,12 +64,13 @@
                             <h3 class="tag">PRACTICE</h3>
                         </div>
                         <div class="container_box row">
-                            <div class="col-6">
-                                <div class="buttons_container row row-cols-auto">
-                                    <div class="col-md-4 mt-4 mx-1"><p><a href="https://www.coursera.org/projects/power-bi-desktop" class="easyskill_button" target="_blank" type="button">Coursera Project-I</a></p></div>
-                                    <div class="col-md-4 mt-4 mx-1"><p><a href="https://www.coursera.org/projects/sales-analysis-using-power-bi" class="medskill_button" target="_blank" type="button">Coursera Project-II</a></p></div>
-                                    <div class="col-md-4 mt-4 mx-2"><p><a href="https://www.wiseowl.co.uk/power-bi/exercises/" class="hardskill_button" target="_blank" type="button">WiseOwl</a></p></div>
-                                    <div class="col-md-4 mt-4 mx-2"><p><a href="https://www.simplilearn.com/power-bi-exam-questions-free-practice-test" class="medskill_button" target="_blank" type="button">Simplilearn</a></p></div>
+                            <div class="col-12">
+                                <div class="buttons_container row">
+                                    <div class="col-xl-2 col-lg-6 col-md-6 mt-4 filterDiv projects easy intermediate hard"><p><a href="https://docs.microsoft.com/en-us/power-bi/create-reports/sample-datasets" class="projects_button" target="_blank" type="button">Microsoft Docs</a></p></div>
+                                    <div class="col-xl-2 col-lg-6 col-md-6 mt-4 filterDiv projects easy intermediate hard"><p><a href="https://www.superdatascience.com/pages/powerbi" class="projects_button" target="_blank" type="button">SuperData Science</a></p></div>
+                                    <div class="col-xl-2 col-lg-6 col-md-6 mt-4 filterDiv exercises easy intermediate hard"><p><a href="https://www.wiseowl.co.uk/power-bi/exercises/" class="exercises_button" target="_blank" type="button">WiseOwl</a></p></div>
+                                    <div class="col-xl-2 col-lg-6 col-md-6 mt-4 filterDiv exercises easy intermediate hard"><p><a href="https://www.simplilearn.com/power-bi-exam-questions-free-practice-test" class="exercises_button" target="_blank" type="button">Simplilearn</a></p></div>
+                                    <div class="col-xl-2 col-lg-6 col-md-6 mt-4 filterDiv projects easy intermediate hard"><p><a href="https://www.learndax.com/power-bi-sample-data-for-beginners-to-download/" class="projects_button" target="_blank" type="button">Learn DAX</a></p></div>
                                 </div>
                             </div>    
                         </div>   
@@ -88,12 +80,9 @@
                             <h3 class="tag">CERTIFY</h3>
                         </div>
                         <div class="container_box row">
-                            <div class="col-6">
+                            <div class="col-12">
                                 <div class="buttons_container row row-cols-auto">
-                                    <div class="col-md-4 mt-4 mx-2"><p><a href="https://docs.microsoft.com/en-us/learn/certifications/exams/da-100" class="skill_button" target="_blank" type="button">Microsoft</a></p></div>
-                                    <div class="col-md-4 mt-4 mx-1"><p><a href="https://www.edureka.co/power-bi-certification-training?utm_source=Google-Search-Brand&utm_medium=cpc&utm_campaign=Brand-Course-Search-CA-BMM&gclid=CjwKCAjw1uiEBhBzEiwAO9B_HTk8-HfS3jKbTgyYOvvtBoznHPTtWvAuGxhU895B7HD5ze-BsKITdBoCExcQAvD_BwE" class="skill_button" target="_blank" type="button">Edureka</a></p></div>
-                                    <div class="col-md-4 mt-4 mx-2"><p><a href="https://www.udemy.com/course/70-778-analyzing-and-visualizing-data-with-power-bi/?utm_source=adwords&utm_medium=udemyads&utm_campaign=Webindex_Catchall_la.EN_cc.CA&utm_term=_._ag_119831896715_._ad_504641403594_._kw__._de_c_._dm__._pl__._ti_dsa-999576473177_._li_9001561_._pd__._&matchtype=b&gclid=CjwKCAjw1uiEBhBzEiwAO9B_HTzrcHfkhjmlSVZ7ZLMmRrp2308Dys4O168kH8y0EnPuLAnaj-pmLRoCWKEQAvD_BwE" class="skill_button" target="_blank" type="button">Udemy</a></p></div>
-                                    <div class="col-md-4 mt-4 mx-1"><p><a href="#" class="skill_button" target="_blank" type="button">LinkedIn</a></p></div>
+                                    <div class="col-xl-2 col-lg-6 col-md-6 mt-4"><p><a href="#" class="skill_button" target="_blank" type="button">LinkedIn</a></p></div>
                                 </div>
                             </div>    
                         </div>   
